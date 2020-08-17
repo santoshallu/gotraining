@@ -1,0 +1,223 @@
+Last login: Mon Aug 17 02:40:34 on ttys004
+(base) C02WJ3LHHTDD:~ santosh_allu$ go env GOBIN
+/Users/santosh_allu/goworkspace/bin
+(base) C02WJ3LHHTDD:~ santosh_allu$ cd goworkspace/src/
+(base) C02WJ3LHHTDD:src santosh_allu$ cd src/
+-bash: cd: src/: No such file or directory
+(base) C02WJ3LHHTDD:src santosh_allu$ cd github.com/
+(base) C02WJ3LHHTDD:github.com santosh_allu$ go env
+GO111MODULE=""
+GOARCH="amd64"
+GOBIN="/Users/santosh_allu/goworkspace/bin"
+GOCACHE="/Users/santosh_allu/Library/Caches/go-build"
+GOENV="/Users/santosh_allu/Library/Application Support/go/env"
+GOEXE=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="darwin"
+GOINSECURE=""
+GOMODCACHE="/Users/santosh_allu/goworkspace/pkg/mod"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="darwin"
+GOPATH="/Users/santosh_allu/goworkspace"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/usr/local/go"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/usr/local/go/pkg/tool/darwin_amd64"
+GCCGO="gccgo"
+AR="ar"
+CC="clang"
+CXX="clang++"
+CGO_ENABLED="1"
+GOMOD=""
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/d8/lczccmkd6x373__k7331rntsn2dlxj/T/go-build529536011=/tmp/go-build -gno-record-gcc-switches -fno-common"
+(base) C02WJ3LHHTDD:github.com santosh_allu$ ls
+GoesToEleven
+(base) C02WJ3LHHTDD:github.com santosh_allu$ cd GoesToEleven/go-programming/code_samples/012-updated-version/001-hello-world/
+(base) C02WJ3LHHTDD:001-hello-world santosh_allu$ go install main.go
+(base) C02WJ3LHHTDD:001-hello-world santosh_allu$ ma
+macbinary         macerror5.18      mailx             malloc_history
+macchangeqt       machine           make              malloc_history32
+macdeployqt       mail              makeconv          man
+macerror          mailq             makeinfo          manpath
+(base) C02WJ3LHHTDD:001-hello-world santosh_allu$ ls
+001-hello-world	main.go
+(base) C02WJ3LHHTDD:001-hello-world santosh_allu$ cd ../..
+(base) C02WJ3LHHTDD:code_samples santosh_allu$ cd ..
+(base) C02WJ3LHHTDD:go-programming santosh_allu$ cd ..
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ ls
+GolangTraining	go-programming	golang-web-dev
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ mkdir gotraining
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ touch .gitignore
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ ls
+GolangTraining	go-programming	golang-web-dev	gotraining
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ cd gotraining/
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ touch .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ cd ..
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ ls
+GolangTraining	go-programming	golang-web-dev	gotraining
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ cd golang-web-dev/
+(base) C02WJ3LHHTDD:golang-web-dev santosh_allu$ ls
+000_temp				027_passing-data
+001_prereq				028_redirect
+002_template				029_cookies
+003_string-to-html			030_sessions
+004_parse_execute			031_aws
+005_data				032_rdbms
+006_variable				033_aws-scaling
+007_data-structures			034_photo-blog
+008_func				035_hmac
+009_predefined-global-functions		036_base64
+010_nested-templates			037_web-storage
+011_composition-and-methods		038_context
+012_hands-on				039_https
+013_xss					040_json
+014_understanding-servers		041_ajax
+015_understanding-TCP-servers		042_mongodb
+016_building-a-tcp-server-for-http	043_docker
+017_understanding-net-http-package	044_postgres
+018_understanding-net-http-ServeMux	045-code-organization
+019_HandleFunc				046_mongodb
+020_HandlerFunc				047_google-cloud
+021_third-party-serveMux		048_memcache
+022_hands-on				049_datastore
+023_serving-files			050_cloud-storage
+024_hands-on				999_old-code
+025_NotFoundHandler			xx045_photo-blog
+026_appengine-deploy
+(base) C02WJ3LHHTDD:golang-web-dev santosh_allu$ sudo vi .gitignore
+Password:
+(base) C02WJ3LHHTDD:golang-web-dev santosh_allu$ ls
+000_temp				027_passing-data
+001_prereq				028_redirect
+002_template				029_cookies
+003_string-to-html			030_sessions
+004_parse_execute			031_aws
+005_data				032_rdbms
+006_variable				033_aws-scaling
+007_data-structures			034_photo-blog
+008_func				035_hmac
+009_predefined-global-functions		036_base64
+010_nested-templates			037_web-storage
+011_composition-and-methods		038_context
+012_hands-on				039_https
+013_xss					040_json
+014_understanding-servers		041_ajax
+015_understanding-TCP-servers		042_mongodb
+016_building-a-tcp-server-for-http	043_docker
+017_understanding-net-http-package	044_postgres
+018_understanding-net-http-ServeMux	045-code-organization
+019_HandleFunc				046_mongodb
+020_HandlerFunc				047_google-cloud
+021_third-party-serveMux		048_memcache
+022_hands-on				049_datastore
+023_serving-files			050_cloud-storage
+024_hands-on				999_old-code
+025_NotFoundHandler			xx045_photo-blog
+026_appengine-deploy
+(base) C02WJ3LHHTDD:golang-web-dev santosh_allu$ cd ..
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ ls
+GolangTraining	go-programming	golang-web-dev	gotraining
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ cd gotraining/
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ sudo vi 
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls -la
+total 0
+drwxr-xr-x  3 santosh_allu  1987437277   96 Aug 17 03:10 .
+drwxr-xr-x  8 santosh_allu  1987437277  256 Aug 17 03:10 ..
+-rw-r--r--  1 santosh_allu  1987437277    0 Aug 17 03:10 .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ sudo vi .gitignore 
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls -la
+total 0
+drwxr-xr-x  3 santosh_allu  1987437277   96 Aug 17 03:12 .
+drwxr-xr-x  8 santosh_allu  1987437277  256 Aug 17 03:10 ..
+-rw-r--r--  1 santosh_allu  1987437277    0 Aug 17 03:10 .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git init
+Initialized empty Git repository in /Users/santosh_allu/goworkspace/src/github.com/GoesToEleven/gotraining/.git/
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls -la
+total 0
+drwxr-xr-x  4 santosh_allu  1987437277  128 Aug 17 03:12 .
+drwxr-xr-x  8 santosh_allu  1987437277  256 Aug 17 03:10 ..
+drwxr-xr-x  9 santosh_allu  1987437277  288 Aug 17 03:12 .git
+-rw-r--r--  1 santosh_allu  1987437277    0 Aug 17 03:10 .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git add --all
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git commit -m "first commit;add gitignore"
+[master (root-commit) 1337826] first commit;add gitignore
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git remote add origin https://github.com/santoshallu/gotraining.git
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git push -u origin master
+Username for 'https://github.com': santoshallu@yahoo.com
+Password for 'https://santoshallu@yahoo.com@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/santoshallu/gotraining.git/'
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git push -u origin master
+Username for 'https://github.com': santoshallu
+Password for 'https://santoshallu@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 240.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/santoshallu/gotraining.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git push -u origin master
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ l
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls -la
+total 0
+drwxr-xr-x   4 santosh_allu  1987437277  128 Aug 17 03:12 .
+drwxr-xr-x   8 santosh_allu  1987437277  256 Aug 17 03:10 ..
+drwxr-xr-x  12 santosh_allu  1987437277  384 Aug 17 03:15 .git
+-rw-r--r--   1 santosh_allu  1987437277    0 Aug 17 03:10 .gitignore
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ sudo vi .git
+.git/       .gitignore  
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ sudo vi .gitignore 
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ ls
+(base) C02WJ3LHHTDD:gotraining santosh_allu$ cd ..
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ ls
+GolangTraining	go-programming	golang-web-dev	gotraining
+(base) C02WJ3LHHTDD:GoesToEleven santosh_allu$ cd golang-web-dev/
+(base) C02WJ3LHHTDD:golang-web-dev santosh_allu$ sudo vi .gitignore 
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+".gitignore" 56L, 649C
+
